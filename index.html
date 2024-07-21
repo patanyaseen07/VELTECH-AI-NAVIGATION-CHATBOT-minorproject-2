@@ -34,6 +34,7 @@
     <form class="msger-inputarea">
       <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
       <button type="submit" class="msger-send-btn">Send</button>
+      <button type="button" class="msger-voice-btn">🎤</button>
     </form>
   </section>
 
@@ -42,22 +43,42 @@
     const msgerForm = document.querySelector(".msger-inputarea");
     const msgerInput = document.querySelector(".msger-input");
     const msgerChat = document.querySelector(".msger-chat");
+    const voiceBtn = document.querySelector(".msger-voice-btn");
 
     const BOT_IMG = "static/images/4.png"; 
-
     const PERSON_IMG = "static/images/3.png";
     const BOT_NAME = "Vel Tech AI Bot";
     const PERSON_NAME = "You";
 
+    let voices = [];
+
+    function populateVoiceList() {
+      voices = speechSynthesis.getVoices();
+    }
+
+    populateVoiceList();
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = populateVoiceList;
+    }
+
     msgerForm.addEventListener("submit", event => {
       event.preventDefault();
-
       const msgText = msgerInput.value.trim();
       if (!msgText) return;
-
       appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
       msgerInput.value = "";
       botResponse(msgText);
+    });
+
+    voiceBtn.addEventListener("click", () => {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = 'en-US';
+      recognition.start();
+
+      recognition.onresult = event => {
+        const transcript = event.results[0][0].transcript;
+        msgerInput.value = transcript;
+      };
     });
 
     function appendMessage(name, img, side, text) {
@@ -75,10 +96,12 @@
       `;
       msgerChat.insertAdjacentHTML("beforeend", msgHTML);
       msgerChat.scrollTop = msgerChat.scrollHeight;
+      if (side === "left") {
+        speakText(text);
+      }
     }
 
     function botResponse(msgText) {
-      // Example bot response logic using jQuery
       $.get("/get", { msg: msgText }).done(data => {
         appendMessage(BOT_NAME, BOT_IMG, "left", data);
       });
@@ -89,7 +112,22 @@
       const m = date.getMinutes().toString().padStart(2, "0");
       return `${h}:${m}`;
     }
+
+    function stripHtmlTags(text) {
+      const doc = new DOMParser().parseFromString(text, 'text/html');
+      return doc.body.textContent || "";
+    }
+
+    function speakText(text) {
+      const cleanedText = stripHtmlTags(text);
+      const speech = new SpeechSynthesisUtterance(cleanedText);
+      const selectedVoice = voices.find(voice => voice.name === 'Google UK English Male');
+      if (selectedVoice) {
+        speech.voice = selectedVoice;
+      }
+      speech.lang = 'en-US';
+      window.speechSynthesis.speak(speech);
+    }
   </script>
 </body>
-
 </html>
