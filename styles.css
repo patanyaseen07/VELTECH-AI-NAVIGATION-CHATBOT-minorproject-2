@@ -1,8 +1,9 @@
+
 :root {
   --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   --msger-bg: #fff;
   --border: 2px solid #ddd;
-  --left-msg-bg: #ac5d5d;
+  --left-msg-bg: #ff9d9d;
   --right-msg-bg: #579ffb;
 }
 
@@ -42,7 +43,6 @@ body {
 }
 
 .msger-header {
-  /* display: flex; */
   font-size: medium;
   justify-content: space-between;
   padding: 10px;
@@ -147,5 +147,7 @@ body {
 }
 
 .msger-chat {
-  background-color: #fcfcfe;
+  background-color: #000000;
  } 
+
+ 
