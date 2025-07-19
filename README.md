@@ -15,3 +15,5 @@ Department and faculty information
 Events and schedules
 Library resources
 ...and more!
+
+<img width="5536" height="1752" alt="diagram" src="https://github.com/user-attachments/assets/c71c469f-d60c-47e5-9bd2-367110e6a01b" />
