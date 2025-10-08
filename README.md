@@ -32,7 +32,7 @@ Download NLTK data: nltk.download('punkt') and nltk.download('wordnet')
 
 These libraries handle web serving, text processing, and machine learning.
 
-![image](placeholder1)
+
 
 ## Step 2: Understanding the Data (intents.json)
 Chatbots need training data. Our intents.json defines patterns and responses for university info.
@@ -43,7 +43,7 @@ Patterns are example questions, responses are bot replies. This covers greetings
 
 For 'hours', patterns like 'what is college timing?' map to responses about class schedules.
 
-![image](placeholder2)
+
 
 ## Step 3: Training the Model (Training.py)
 Train the AI model. Training.py processes intents into a neural network.
@@ -56,7 +56,7 @@ Run training: python Training.py (200 epochs, saves model.h5, texts.pkl, labels.
 
 This creates a trained model that classifies user intents.
 
-![image](placeholder3)
+
 
 ## Step 4: Building the Flask App (app.py)
 With the model trained, build the backend. app.py loads the model and handles chat logic.
@@ -67,7 +67,7 @@ Routes: "/" renders index.html, "/get" processes user messages via chatbot_respo
 
 Flask serves the web page and responds to AJAX requests from the frontend.
 
-![image](placeholder4)
+
 
 ## Step 5: Creating the Web Interface (index.html & CSS)
 For the frontend, use HTML, CSS, and JS. index.html has a chat UI with message bubbles.
@@ -78,7 +78,6 @@ JS: Handles form submission, appends messages, voice recognition (SpeechRecognit
 
 Voice button uses browser APIs for speech input. Mute button toggles TTS.
 
-![image](placeholder5)
 
 ## Step 6: Running & Demo
 Run the app: python app.py (opens at localhost:5000).
@@ -88,15 +87,17 @@ Demo: Type queries like "what are college hours?" or "where is Vel Tech?"
 Voice: Click mic, speak, bot responds with voice.
 
 The bot uses the trained model to predict intent and reply with university info.
+<img width="1565" height="1120" alt="Screenshot 2025-10-08 163435" src="https://github.com/user-attachments/assets/7e8570df-f349-46a4-92b4-5fcc8dc6b2c8" />
 
-![image](placeholder6)
+
+<img width="1831" height="1038" alt="image" src="https://github.com/user-attachments/assets/7a2494bb-d7f1-42d2-abf6-7bbfdd8f0615" />
+
 
 ## Improvements
 Add more intents, integrate APIs, use transformers like BERT for better accuracy.
 
 Challenges: Training data quality affects responses. Voice works in modern browsers.
 
-![image](placeholder7)
 
 ## Installation
 1. Clone the repository:
