@@ -1,0 +1,2851 @@
+{
+    "intents": [
+        {
+            "tag": "welcome",
+            "patterns": [
+                "Hi",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "heyy",
+                "hiii"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "grettings",
+            "patterns": [
+                "How are you?",
+                "What's up",
+                "how are ya",
+                "whatsup"
+            ],
+            "responses": [
+                "fine buddy",
+                "Fine! thanks for asking :)",
+                "Good! what about you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "ttyl",
+                "i got to go",
+                "gtg",
+                "byee"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "AI&DS  students"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "Greetings! I am your Vel Tech Navigator, here to guide you through any inquiries you may have about Vel Tech University.",
+                "Consider me your guide to all things Vel Tech University!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of college",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the college open",
+                "college timing",
+                "what about college timing",
+                "is college open on saturday",
+                "tell something about college timing",
+                "what is the college hours",
+                "when should i come to college",
+                "when should i attend college",
+                "what is my college time",
+                "college timing",
+                "timing college"
+            ],
+            "responses": [
+                "According to the information provided:\n\n- For First Year Students, classes typically run from 8:45 AM to 3:45 PM, Monday through saturday.\n\n- For Second to Fourth Year Students, they have the flexibility to create their own timetables based on the courses allotted to them. The university likely provides an online course registration system or resources to help with scheduling.\n\n However, the first and third Saturdays of each month are observed as holidays."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact veltech college",
+                "college telephone number",
+                "college number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                "College phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "Here's how you can reach Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology: \n\n\nAdmission Email: <a href='mailto:admission@veltech.edu.in/' target='_blank'>Admission</a>.\n\n\n Phone Numbers:\n   Tamil Nadu: +91 94455 68802\n      Andhra Pradesh & Telangana: 90031 07000\n      Other States: 74488 88954\n      Toll Free: 1800 2127 669.\n\n\n Website: <a href='https://www.veltech.edu.in/' target='_blank'>Website</a>.\n\n\nContact page: <a href='https://www.veltech.edu.in/contactus/' target='_blank'>Contact page</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "departments",
+                "what departments does Veltech have",
+                "Vel Tech departments",
+                "programs offered by Veltech",
+                "courses at Vel Tech",
+                "what can I study at Veltech",
+                "Vel Tech academics",
+                "majors at Veltech",
+                "Veltech faculties"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology offers a wide range of academic programs. Here are some of the departments:\n\n\n School of Engineering,\n\n\n School of Computing,\n\n\n School of Electrical and Communication,\n\n\nSchool of Mechanical and Construction,\n\n\n School of Management,\n\n Department of Biological Sciences & Engineering,\n\n School of Law,\n\n School of Media Technology & Communication.\n\n\nFor a complete list of departments and programs, I recommend visiting the official Vel Tech website: <a href='https://www.veltech.edu.in/academics/' target='_blank'>click academics/</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                "college fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees",
+                "What is the fees of hostel",
+                "how much is the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room"
+            ],
+            "responses": [
+                "For detailed fee information, please visit the Vel Tech Fee Structure page:  <a href='https://www.veltech.edu.in/veltech-fee-structure/' target='_blank'>click Feestructure</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is Veltech located",
+                "where can I find Veltech",
+                "address of Veltech",
+                "how do I get to Veltech",
+                "Veltech location",
+                "Veltech address",
+                "where is Veltech situated",
+                "how can I reach Veltech",
+                "what is the address of Veltech",
+                "how to reach Veltech",
+                "Veltech campus location",
+                "where is the campus of Veltech",
+                "address",
+                "location",
+                "where is veltech"
+            ],
+            "responses": [
+                "<a href='https://www.google.com/maps/dir//Vel+Tech+Rangarajan+Dr.Sagunthala+R%26D+Institute+of+Science+and+Technology,+No.42,+Avadi-Vel+Tech+Road+Vel+Nagar,+Avadi,+Chennai,+Tamil+Nadu+600062/@13.1785578,80.0990462,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a525d82ff11a9cf:0x3304dc9aed0f444a!2m2!1d80.0982598!2d13.1761548?entry=ttu/' target='_blank'>click Veltechlocation</a>here</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "hostel facility",
+                "hostel service",
+                "hostel location",
+                "hostel address",
+                "hostel facilities",
+                "hostel fees",
+                "Does college provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "do you guys have hostel",
+                "hostel",
+                "hostel capacity",
+                "what is the hostel fee",
+                "how to get in hostel",
+                "what is the hostel address",
+                "how far is hostel from college",
+                "hostel college distance",
+                "where is the hostel",
+                "how big is the hostel",
+                "distance between college and hostel",
+                "distance between hostel and college"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology has a well-equipped hostel facility for its students. Some key details about the hostels:\n\n\n\nThe university has separate hostels for boys and girls, with modern amenities like Wi-Fi, laundry, 24/7 security, and recreational facilities.\n\n The hostels are located within the 100-acre campus, in close proximity to the academic buildings.\n\n The hostel fees range from Rs. 1,05,000 to Rs. 1,65,000 per year, depending on the room type (single, double, 4-in-1, or standard).\n\n\n For more detailed information about the hostel facilities, fees, and application process, please visit the official Vel Tech Hostel webpage: <a href='https://www.veltech.edu.in/hostels//' target='_blank'>click Hostels</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "events organised",
+                "list of events",
+                "list of events organised in veltech",
+                "list of events conducted in veltech",
+                "What events are conducted in veltech",
+                "Are there any event held at veltech",
+                "Events?",
+                "functions",
+                "what are the events",
+                "tell me about events",
+                "what about events"
+            ],
+            "responses": [
+                "For event detail visit <a href='https://www.veltech.edu.in/events/' target='_blank'> click here</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have a library",
+                "does the veltech have a library facility",
+                "college library",
+                "where can I get books",
+                "book facility",
+                "where is the library",
+                "Library",
+                "Library information",
+                "Library books information",
+                "Tell me about the library",
+                "how many libraries"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology boasts spacious and well-equipped libraries for different departments. The central library for the School of Computing is located in Block 21 on the third floor, the central library for the School of Electrical & Communication is in Block 22 on the third floor, the central library for the School of Mechanical & Construction is in Block 23 on the third floor, and the central library for the School of Management of Basic Science is in Block 24 on the third floor. These libraries are situated side by side near the Veltech Fountain. The library timings are from 8 am to 6 pm. For more detailed information, please visit the library details page: <a href='https://www.veltech.edu.in/central-library/' target='_blank'> click here</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is veltech infrastructure",
+                "infrastructure",
+                "veltech infrastructure",
+                "is this college is good",
+                "college infrastructure"
+            ],
+            "responses": [
+                "Vel Tech University features modern facilities:\n\nWell-equipped classrooms and labs,\n\nExtensive libraries,\nRobust IT infrastructure,\nComfortable hostels,\n\nSports facilities\n\nGreen campus.\n\nThis infrastructure supports academic and personal growth, providing students with essential resources for success."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafeteria in college",
+                "Does college have a canteen",
+                "Where is the canteen",
+                "where is the cafeteria",
+                "canteen",
+                "Food",
+                "Cafeteria"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology has a canteen facility on campus called the 'Vel Tech Annapoorni Dining Hall'. The canteen is located near the Vel Tech ATM and offers a variety of food options for students and staff. The canteen provides a convenient dining option within the university premises."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is vetech placement",
+                "Which companies visit in veltech",
+                "What is average package",
+                "companies visit",
+                "package",
+                "About placement",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                "To know about placement visit <a href='https://veltech.edu.in/cse-doc/placement/' target='_blank'> here</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "faculty",
+            "patterns": [
+                "faculty",
+                "professors at Veltech",
+                "Vel Tech faculty",
+                "who teaches at Veltech",
+                "faculty information",
+                "departments and faculty at Veltech",
+                "Veltech faculty list",
+                "professors in specific department",
+                "faculty contact details"
+            ],
+            "responses": [
+                "Vel Tech University has a talented and experienced faculty across its departments. While I cannot provide a comprehensive faculty list due to privacy concerns, you can find information on the official university website. Department contacts may also be able to assist you further. If you need specifics on the School of Computing or CSE department faculty, I can provide that data."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "School of computing",
+            "patterns": [
+                "CSE faculty",
+                "school of computing",
+                "cse faculty list",
+                "professors at Vel Tech CSE",
+                "Vel Tech 33 Block faculty",
+                "who teaches at CSE list",
+                "faculty information of CSE",
+                "departments and faculty at CSE",
+                "Vel Tech faculty list",
+                "professors in CSE department",
+                "computer science engineering faculty contact details",
+                "Can you provide information about the faculty members?"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology's School of Computing has a total of 214 faculty members, comprising 110 males and 104 females. Among them, there are 19 professors, 45 associate professors, and 150 assistant professors. Additionally, 79 faculty members hold PhD degrees.\n For more detailed information about the faculty members in the School of Computing, you can visit the official faculty page:  <a href='https://veltech.edu.in/cse-doc/faculty/' target='_blank'> here</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sem",
+            "patterns": [
+                "exam dates",
+                "exam schedule",
+                "When is semester exam",
+                "Semester exam timetable",
+                "sem",
+                "semester",
+                "exam",
+                "when is exam",
+                "exam timetable",
+                "exam dates",
+                "when is semester"
+            ],
+            "responses": [
+                "Here is the Academic Calendar  <a href='https://www.veltech.edu.in/academics/' target='_blank'>website</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does college have a uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear a uniform"
+            ],
+            "responses": [
+                "At Vel Tech University, students are not required to wear a uniform. They are allowed to wear all decent outfits, with the guideline that torn jeans and t-shirts are not permitted. For boys and girls , attire should be in proper attire."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Sorry, I'm not sure I understand. Can you try asking in a different way?",
+                "Maintaining decency would be appreciated"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester starts",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "Holiday in these year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When is holidays",
+                "how long will be the vacation"
+            ],
+            "responses": [
+                "Academic calender is given to you by your class-soordinators after you join your respective classes"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit <a href='https://www.veltech.edu.in/sports/' target='_blank'>website</a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding college",
+                "You can ask me questions regarding college, and i will try to answer them"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging against",
+                "antiragging facility",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vel Tech Clubs",
+            "patterns": [
+                "NCC",
+                "National Cadet Corps",
+                "NSS",
+                "National Service Scheme",
+                "CPC",
+                "Community Pro Club",
+                "UBA",
+                "Unnat Bharat Abhiyan",
+                "Arts and drama club",
+                "Dance club",
+                "Music club",
+                "Sports club",
+                "Photography club"
+            ],
+            "responses": [
+                "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology offers a variety of clubs and extracurricular activities for students. These include the National Cadet Corps (NCC), National Service Scheme (NSS), Community Pro Club (CPC), and Unnat Bharat Abhiyan (UBA) programs. The university also hosts an arts and drama club, dance club, music club, sports club, and photography club. These clubs provide students with opportunities to explore interests, develop skills, and build relationships. For more information on these clubs and how to participate, visit the Vel Tech website or contact the university directly."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_4_lookup",
+            "patterns": [
+                "where is block 4",
+                "what is in block 4",
+                "find block 4",
+                "block 4 location"
+            ],
+            "responses": [
+                "Block 4 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_053b8dd68c2ba829' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_6_lookup",
+            "patterns": [
+                "where is block 6",
+                "what is in block 6",
+                "find block 6",
+                "block 6 location"
+            ],
+            "responses": [
+                "Block 6 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the click here for  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_85db5ff2d16ae596' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_7_lookup",
+            "patterns": [
+                "where is block 7",
+                "what is in block 7",
+                "find block 7",
+                "block 7 location"
+            ],
+            "responses": [
+                "Block 7 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_c39ad9306d5b8f4d' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_8_lookup",
+            "patterns": [
+                "where is block 8",
+                "what is in block 8",
+                "find block 8",
+                "block 8 location"
+            ],
+            "responses": [
+                "Block 8 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_3e39e0801db7055f' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_9_lookup",
+            "patterns": [
+                "where is block 9",
+                "what is in block 9",
+                "find block 9",
+                "block 9 location"
+            ],
+            "responses": [
+                "Block 9 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_e33ccf2420caa775' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_10_lookup",
+            "patterns": [
+                "where is block 10",
+                "what is in block 10",
+                "find block 10",
+                "block 10 location"
+            ],
+            "responses": [
+                "Block 10 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_97d3e770e06cc4ae' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_11_lookup",
+            "patterns": [
+                "where is block 11",
+                "what is in block 11",
+                "find block 11",
+                "block 11 location"
+            ],
+            "responses": [
+                "Block 11 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_f8aae118ce8c7640' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_12_lookup",
+            "patterns": [
+                "where is block 12",
+                "what is in block 12",
+                "find block 12",
+                "block 12 location"
+            ],
+            "responses": [
+                "Block 12 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_cc037de9f80e9861' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_13_lookup",
+            "patterns": [
+                "where is block 13",
+                "what is in block 13",
+                "find block 13",
+                "block 13 location"
+            ],
+            "responses": [
+                "Block 13 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_69b4fe2011795852' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_14_lookup",
+            "patterns": [
+                "where is block 14",
+                "what is in block 14",
+                "find block 14",
+                "block 14 location"
+            ],
+            "responses": [
+                "Block 14 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_1e321e9e0d650be3' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_15_lookup",
+            "patterns": [
+                "where is block 15",
+                "what is in block 15",
+                "find block 15",
+                "block 15 location"
+            ],
+            "responses": [
+                "Block 15 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_b09aa9a5c8a9a1fa' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_16_lookup",
+            "patterns": [
+                "where is block 16",
+                "what is in block 16",
+                "find block 16",
+                "block 16 location"
+            ],
+            "responses": [
+                "Block 16 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_037ad1b0f58835b8' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_17_lookup",
+            "patterns": [
+                "where is block 17",
+                "what is in block 17",
+                "find block 17",
+                "block 17 location"
+            ],
+            "responses": [
+                "Block 17 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_037ad1b0f58835b8' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_18_lookup",
+            "patterns": [
+                "where is block 18",
+                "what is in block 18",
+                "find block 18",
+                "block 18 location"
+            ],
+            "responses": [
+                "Block 18 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_3ef85e1f679b8418' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_19_lookup",
+            "patterns": [
+                "where is block 19",
+                "what is in block 19",
+                "find block 19",
+                "block 19 location"
+            ],
+            "responses": [
+                "Block 19 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_c76c72bdd21532ee' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_20_lookup",
+            "patterns": [
+                "where is block 20",
+                "what is in block 20",
+                "find block 20",
+                "block 20 location"
+            ],
+            "responses": [
+                "Block 20 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_1868a9a426fe10e7' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_21_lookup",
+            "patterns": [
+                "where is block 21",
+                "what is in block 21",
+                "find block 21",
+                "block 21 location"
+            ],
+            "responses": [
+                "Block 21 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_ced27fd897188057' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_22_lookup",
+            "patterns": [
+                "where is block 22",
+                "what is in block 22",
+                "find block 22",
+                "block 22 location"
+            ],
+            "responses": [
+                "Block 22 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_1fe4ceae15dd615c' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_23_lookup",
+            "patterns": [
+                "where is block 23",
+                "what is in block 23",
+                "find block 23",
+                "block 23 location"
+            ],
+            "responses": [
+                "Block 23 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_851837e1af34430b' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_24_lookup",
+            "patterns": [
+                "where is block 24",
+                "what is in block 24",
+                "find block 24",
+                "block 24 location"
+            ],
+            "responses": [
+                "Block 24 is an Academic & Admin Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_896fadbe00696ee3' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_25_lookup",
+            "patterns": [
+                "where is block 25",
+                "what is in block 25",
+                "find block 25",
+                "block 25 location"
+            ],
+            "responses": [
+                "Block 25 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_bc2a79fedd4014ec' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_26_lookup",
+            "patterns": [
+                "where is block 26",
+                "what is in block 26",
+                "find block 26",
+                "block 26 location"
+            ],
+            "responses": [
+                "Block 26 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_3e13bc3dd04528ad' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_27_lookup",
+            "patterns": [
+                "where is block 27",
+                "what is in block 27",
+                "find block 27",
+                "block 27 location"
+            ],
+            "responses": [
+                "Block 27 is a Laboratories block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_101d04e9ad08da22' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_28_lookup",
+            "patterns": [
+                "where is block 28",
+                "what is in block 28",
+                "find block 28",
+                "block 28 location"
+            ],
+            "responses": [
+                "Block 28 is a Convocation Hall located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_ee538e7c229c4ac5' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_29_lookup",
+            "patterns": [
+                "where is block 29",
+                "what is in block 29",
+                "find block 29",
+                "block 29 location"
+            ],
+            "responses": [
+                "Block 29 is a Research Park located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_ee538e7c229c4ac5' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_31_lookup",
+            "patterns": [
+                "where is block 31",
+                "what is in block 31",
+                "find block 31",
+                "block 31 location"
+            ],
+            "responses": [
+                "Block 31 is a Centre of Excellence-(TBI) located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_7691eb83b2d903e0' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_32_lookup",
+            "patterns": [
+                "where is block 32",
+                "what is in block 32",
+                "find block 32",
+                "block 32 location"
+            ],
+            "responses": [
+                "Block 32 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_2a11e809d1206450' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_33_lookup",
+            "patterns": [
+                "where is block 33",
+                "what is in block 33",
+                "find block 33",
+                "block 33 location"
+            ],
+            "responses": [
+                "Block 33 is an Academic Block located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_8a1b17641224e890' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "block_39_lookup",
+            "patterns": [
+                "where is block 39",
+                "what is in block 39",
+                "find block 39",
+                "block 39 location"
+            ],
+            "responses": [
+                "Block 39 is an Aircraft System Laboratory located inside VELTECH UNIVERSITY. You can find it on the  Indoor map: <a href='https://app.mappedin.com/map/663097303d4f85efee0e4a06?floor=m_fa1791984152c1fc&location=s_97ac382d285d1c76' target='_blank'> click here </a>"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33001_lookup",
+            "patterns": [
+                "where is room 33001",
+                "find room 33001",
+                "location of room 33001"
+            ],
+            "responses": [
+                "Room 33001 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33001 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_4aaf7b7d23fddb95' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33002_lookup",
+            "patterns": [
+                "where is room 33002",
+                "find room 33002",
+                "location of room 33002"
+            ],
+            "responses": [
+                "Room 33002 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33002 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_fc00c77999844783' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33003_lookup",
+            "patterns": [
+                "where is room 33003",
+                "find room 33003",
+                "location of room 33003"
+            ],
+            "responses": [
+                "Room 33003 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33003 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_24bfce2292cf9beb' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33004_lookup",
+            "patterns": [
+                "where is room 33004",
+                "find room 33004",
+                "location of room 33004"
+            ],
+            "responses": [
+                "Room 33004 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33004 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_278901a923a03a88' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33005_lookup",
+            "patterns": [
+                "where is room 33005",
+                "find room 33005",
+                "location of room 33005"
+            ],
+            "responses": [
+                "Room 33005 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33005 is a Rest Room - Gents.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_669d5a45d22136f9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33006_lookup",
+            "patterns": [
+                "where is room 33006",
+                "find room 33006",
+                "location of room 33006"
+            ],
+            "responses": [
+                "Room 33006 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33006 is a Problem Solving Workspace.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_669d5a45d22136f9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33007_lookup",
+            "patterns": [
+                "where is room 33007",
+                "find room 33007",
+                "location of room 33007"
+            ],
+            "responses": [
+                "Room 33007 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33007 is a Smart Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_c561ed5d7d2710d4' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33008_lookup",
+            "patterns": [
+                "where is room 33008",
+                "find room 33008",
+                "location of room 33008"
+            ],
+            "responses": [
+                "Room 33008 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33008 is a Project Workspace I.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_553894dab82af823' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33009_lookup",
+            "patterns": [
+                "where is room 33009",
+                "find room 33009",
+                "location of room 33009"
+            ],
+            "responses": [
+                "Room 33009 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33009 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_553894dab82af823' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33019_lookup",
+            "patterns": [
+                "where is room 33019",
+                "find room 33019",
+                "location of room 33019"
+            ],
+            "responses": [
+                "Room 33019 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33019 is a Rest Room - Ladies.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_32a8027e6838222b' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33020_lookup",
+            "patterns": [
+                "where is room 33020",
+                "find room 33020",
+                "location of room 33020"
+            ],
+            "responses": [
+                "Room 33020 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33020 is a Department Exam Cell.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_c5d18c7dd161a30f' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33021_lookup",
+            "patterns": [
+                "where is room 33021",
+                "find room 33021",
+                "location of room 33021"
+            ],
+            "responses": [
+                "Room 33021 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33021 is a Learning Space I.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_0cf1a9c3d280d6a8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33022_lookup",
+            "patterns": [
+                "where is room 33022",
+                "find room 33022",
+                "location of room 33022"
+            ],
+            "responses": [
+                "Room 33022 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33022 is a Learning Space II.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_08e114686518bca5' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33023_lookup",
+            "patterns": [
+                "where is room 33023",
+                "find room 33023",
+                "location of room 33023"
+            ],
+            "responses": [
+                "Room 33023 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33023 is a Dean Meeting Hall.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_dce3deb0d6673890' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33024_lookup",
+            "patterns": [
+                "where is room 33024",
+                "find room 33024",
+                "location of room 33024"
+            ],
+            "responses": [
+                "Room 33024 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33024 is a Department Office.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_00622d204504a551' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33025_lookup",
+            "patterns": [
+                "where is room 33025",
+                "find room 33025",
+                "location of room 33025"
+            ],
+            "responses": [
+                "Room 33025 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33025 is a Mac Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_b2e588b4e76d8aa3' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33026_lookup",
+            "patterns": [
+                "where is room 33026",
+                "find room 33026",
+                "location of room 33026"
+            ],
+            "responses": [
+                "Room 33026 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33026 is a Project Workspace II.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_6391db0c39126915' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33027_lookup",
+            "patterns": [
+                "where is room 33027",
+                "find room 33027",
+                "location of room 33027"
+            ],
+            "responses": [
+                "Room 33027 is located in BLOCK 33 on the Ground Floor.\n\nRoom 33027 is a Dean Office.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_82e5e54bbaca2894' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33101_lookup",
+            "patterns": [
+                "where is room 33101",
+                "find room 33101",
+                "location of room 33101"
+            ],
+            "responses": [
+                "Room 33101 is located in BLOCK 33 on the First Floor.\n\nRoom 33101 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_f69e57023b6bfb23' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33102_lookup",
+            "patterns": [
+                "where is room 33102",
+                "find room 33102",
+                "location of room 33102"
+            ],
+            "responses": [
+                "Room 33102 is located in BLOCK 33 on the First Floor.\n\nRoom 33102 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_8b5c9d1ced574666' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33103_lookup",
+            "patterns": [
+                "where is room 33103",
+                "find room 33103",
+                "location of room 33103"
+            ],
+            "responses": [
+                "Room 33103 is located in BLOCK 33 on the First Floor.\n\nRoom 33103 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_e1752665c80237b9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33104_lookup",
+            "patterns": [
+                "where is room 33104",
+                "find room 33104",
+                "location of room 33104"
+            ],
+            "responses": [
+                "Room 33104 is located in BLOCK 33 on the First Floor.\n\nRoom 33104 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_44392202c9b21561' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33105_lookup",
+            "patterns": [
+                "where is room 33105",
+                "find room 33105",
+                "location of room 33105"
+            ],
+            "responses": [
+                "Room 33105 is located in BLOCK 33 on the First Floor.\n\nRoom 33105 is a Rest Room - Gents.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_b4fd6f5a21f96756' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33106_lookup",
+            "patterns": [
+                "where is room 33106",
+                "find room 33106",
+                "location of room 33106"
+            ],
+            "responses": [
+                "Room 33106 is located in BLOCK 33 on the First Floor.\n\nRoom 33106 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_58c71fc042b04bf3' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33107_lookup",
+            "patterns": [
+                "where is room 33107",
+                "find room 33107",
+                "location of room 33107"
+            ],
+            "responses": [
+                "Room 33107 is located in BLOCK 33 on the First Floor.\n\nRoom 33107 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_8b1a0b84ae36955f' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33108_lookup",
+            "patterns": [
+                "where is room 33108",
+                "find room 33108",
+                "location of room 33108"
+            ],
+            "responses": [
+                "Room 33108 is located in BLOCK 33 on the First Floor.\n\nRoom 33108 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_89277a9c31b1a251' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33109_lookup",
+            "patterns": [
+                "where is room 33109",
+                "find room 33109",
+                "location of room 33109"
+            ],
+            "responses": [
+                "Room 33109 is located in BLOCK 33 on the First Floor.\n\nRoom 33109 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_457eea0d56991fd8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33110_lookup",
+            "patterns": [
+                "where is room 33110",
+                "find room 33110",
+                "location of room 33110"
+            ],
+            "responses": [
+                "Room 33110 is located in BLOCK 33 on the First Floor.\n\nRoom 33110 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_8206dadea18aade4' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33112_lookup",
+            "patterns": [
+                "where is room 33112",
+                "find room 33112",
+                "location of room 33112"
+            ],
+            "responses": [
+                "Room 33112 is located in BLOCK 33 on the First Floor.\n\nRoom 33112 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_fbfebc017717ef9a' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33113_lookup",
+            "patterns": [
+                "where is room 33113",
+                "find room 33113",
+                "location of room 33113"
+            ],
+            "responses": [
+                "Room 33113 is located in BLOCK 33 on the First Floor.\n\nRoom 33113 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_4cece2a85200b12b' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33124_lookup",
+            "patterns": [
+                "where is room 33124",
+                "find room 33124",
+                "location of room 33124"
+            ],
+            "responses": [
+                "Room 33124 is located in BLOCK 33 on the First Floor.\n\nRoom 33124 is a Rest Room - Ladies.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_de5460fee00c5cf7' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33125_lookup",
+            "patterns": [
+                "where is room 33125",
+                "find room 33125",
+                "location of room 33125"
+            ],
+            "responses": [
+                "Room 33125 is located in BLOCK 33 on the First Floor.\n\nRoom 33125 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_38427b3ab3a7d24c' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33126_lookup",
+            "patterns": [
+                "where is room 33126",
+                "find room 33126",
+                "location of room 33126"
+            ],
+            "responses": [
+                "Room 33126 is located in BLOCK 33 on the First Floor.\n\nRoom 33126 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_a3f66a9c43abe004' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33127_lookup",
+            "patterns": [
+                "where is room 33127",
+                "find room 33127",
+                "location of room 33127"
+            ],
+            "responses": [
+                "Room 33127 is located in BLOCK 33 on the First Floor.\n\nRoom 33127 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_909409492fbefb52' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33128_lookup",
+            "patterns": [
+                "where is room 33128",
+                "find room 33128",
+                "location of room 33128"
+            ],
+            "responses": [
+                "Room 33128 is located in BLOCK 33 on the First Floor.\n\nRoom 33128 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_b8618cdc5079e19a' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33129_lookup",
+            "patterns": [
+                "where is room 33129",
+                "find room 33129",
+                "location of room 33129"
+            ],
+            "responses": [
+                "Room 33129 is located in BLOCK 33 on the First Floor.\n\nRoom 33129 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_5fb29bd46b12058b' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33130_lookup",
+            "patterns": [
+                "where is room 33130",
+                "find room 33130",
+                "location of room 33130"
+            ],
+            "responses": [
+                "Room 33130 is located in BLOCK 33 on the First Floor.\n\nRoom 33130 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_5449a8a275a3d48c' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33131_lookup",
+            "patterns": [
+                "where is room 33131",
+                "find room 33131",
+                "location of room 33131"
+            ],
+            "responses": [
+                "Room 33131 is located in BLOCK 33 on the First Floor.\n\nRoom 33131 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_0416a98d2a82570d' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33132_lookup",
+            "patterns": [
+                "where is room 33132",
+                "find room 33132",
+                "location of room 33132"
+            ],
+            "responses": [
+                "Room 33132 is located in BLOCK 33 on the First Floor.\n\nRoom 33132 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_55272e86a6596b6e' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33133_lookup",
+            "patterns": [
+                "where is room 33133",
+                "find room 33133",
+                "location of room 33133"
+            ],
+            "responses": [
+                "Room 33133 is located in BLOCK 33 on the First Floor.\n\nRoom 33133 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_321f611166c91486' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33134_lookup",
+            "patterns": [
+                "where is room 33134",
+                "find room 33134",
+                "location of room 33134"
+            ],
+            "responses": [
+                "Room 33134 is located in BLOCK 33 on the First Floor.\n\nRoom 33134 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_321f611166c91486' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33135_lookup",
+            "patterns": [
+                "where is room 33135",
+                "find room 33135",
+                "location of room 33135"
+            ],
+            "responses": [
+                "Room 33135 is located in BLOCK 33 on the First Floor.\n\nRoom 33135 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_f88530fa527b9b77' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33135A_lookup",
+            "patterns": [
+                "where is room 33135A",
+                "find room 33135A",
+                "location of room 33135A"
+            ],
+            "responses": [
+                "Room 33135A is located in BLOCK 33 on the First Floor.\n\nRoom 33135A is a Power Backup Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_889fd5ef7583a874' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33136_lookup",
+            "patterns": [
+                "where is room 33136",
+                "find room 33136",
+                "location of room 33136"
+            ],
+            "responses": [
+                "Room 33136 is located in BLOCK 33 on the First Floor.\n\nRoom 33136 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_8f4536f1e7ab87d4' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33137_lookup",
+            "patterns": [
+                "where is room 33137",
+                "find room 33137",
+                "location of room 33137"
+            ],
+            "responses": [
+                "Room 33137 is located in BLOCK 33 on the First Floor.\n\nRoom 33137 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_ced68dd6a86453bb' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33138_lookup",
+            "patterns": [
+                "where is room 33138",
+                "find room 33138",
+                "location of room 33138"
+            ],
+            "responses": [
+                "Room 33138 is located in BLOCK 33 on the First Floor.\n\nRoom 33138 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_7be37cc2b0e3a53d' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33139_lookup",
+            "patterns": [
+                "where is room 33139",
+                "find room 33139",
+                "location of room 33139"
+            ],
+            "responses": [
+                "Room 33139 is located in BLOCK 33 on the First Floor.\n\nRoom 33139 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_fddecd26be3a5cd7?floor=m_3e4508bb23772e5f&location=s_961e52a19a4d64d9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33140_lookup",
+            "patterns": [
+                "where is room 33140",
+                "find room 33140",
+                "location of room 33140"
+            ],
+            "responses": [
+                "Room 33140 is located in BLOCK 33 on the First Floor.\n\nRoom 33140 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33141_lookup",
+            "patterns": [
+                "where is room 33141",
+                "find room 33141",
+                "location of room 33141"
+            ],
+            "responses": [
+                "Room 33141 is located in BLOCK 33 on the First Floor.\n\nRoom 33141 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_a856e665247c0cb8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33142_lookup",
+            "patterns": [
+                "where is room 33142",
+                "find room 33142",
+                "location of room 33142"
+            ],
+            "responses": [
+                "Room 33142 is located in BLOCK 33 on the First Floor.\n\nRoom 33142 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_8603d02b3c0a3ee5' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33143_lookup",
+            "patterns": [
+                "where is room 33143",
+                "find room 33143",
+                "location of room 33143"
+            ],
+            "responses": [
+                "Room 33143 is located in BLOCK 33 on the First Floor.\n\nRoom 33143 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_de056835713506c0' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33144_lookup",
+            "patterns": [
+                "where is room 33144",
+                "find room 33144",
+                "location of room 33144"
+            ],
+            "responses": [
+                "Room 33144 is located in BLOCK 33 on the First Floor.\n\nRoom 33144 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_061faa822dd95e82' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33145_lookup",
+            "patterns": [
+                "where is room 33145",
+                "find room 33145",
+                "location of room 33145"
+            ],
+            "responses": [
+                "Room 33145 is located in BLOCK 33 on the First Floor.\n\nRoom 33145 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_4c35dd0a5f9f9552' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33146_lookup",
+            "patterns": [
+                "where is room 33146",
+                "find room 33146",
+                "location of room 33146"
+            ],
+            "responses": [
+                "Room 33146 is located in BLOCK 33 on the First Floor.\n\nRoom 33146 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_3e4508bb23772e5f&location=s_18a38dcffeecd1b8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33201_lookup",
+            "patterns": [
+                "where is room 33201",
+                "find room 33201",
+                "location of room 33201"
+            ],
+            "responses": [
+                "Room 33201 is located in BLOCK 33 on the Second Floor.\n\nRoom 33201 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_b0c630ec09d1bfcd' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33202_lookup",
+            "patterns": [
+                "where is room 33202",
+                "find room 33202",
+                "location of room 33202"
+            ],
+            "responses": [
+                "Room 33202 is located in BLOCK 33 on the Second Floor.\n\nRoom 33202 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_7c0b94492f6d560d' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33203_lookup",
+            "patterns": [
+                "where is room 33203",
+                "find room 33203",
+                "location of room 33203"
+            ],
+            "responses": [
+                "Room 33203 is located in BLOCK 33 on the Second Floor.\n\nRoom 33203 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_80b1faddfe1d079c' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33204_lookup",
+            "patterns": [
+                "where is room 33204",
+                "find room 33204",
+                "location of room 33204"
+            ],
+            "responses": [
+                "Room 33204 is located in BLOCK 33 on the Second Floor.\n\nRoom 33204 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_2103d10651524250' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33205_lookup",
+            "patterns": [
+                "where is room 33205",
+                "find room 33205",
+                "location of room 33205"
+            ],
+            "responses": [
+                "Room 33205 is located in BLOCK 33 on the Second Floor.\n\nRoom 33205 is a Rest Room - Gents.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_9d7bbf9c74b19a39' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33206_lookup",
+            "patterns": [
+                "where is room 33206",
+                "find room 33206",
+                "location of room 33206"
+            ],
+            "responses": [
+                "Room 33206 is located in BLOCK 33 on the Second Floor.\n\nRoom 33206 is a Boys Waiting Hall.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_555ba19330373489' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33207_lookup",
+            "patterns": [
+                "where is room 33207",
+                "find room 33207",
+                "location of room 33207"
+            ],
+            "responses": [
+                "Room 33207 is located in BLOCK 33 on the Second Floor.\n\nRoom 33207 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_ca6cb12d3458b488' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33208_lookup",
+            "patterns": [
+                "where is room 33208",
+                "find room 33208",
+                "location of room 33208"
+            ],
+            "responses": [
+                "Room 33208 is located in BLOCK 33 on the Second Floor.\n\nRoom 33208 is a Tutorial Class.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_1bade0bb116113ba' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33209_lookup",
+            "patterns": [
+                "where is room 33209",
+                "find room 33209",
+                "location of room 33209"
+            ],
+            "responses": [
+                "Room 33209 is located in BLOCK 33 on the Second Floor.\n\nRoom 33209 is a Tutorial Class.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_d8295de507efe205' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33212_lookup",
+            "patterns": [
+                "where is room 33212",
+                "find room 33212",
+                "location of room 33212"
+            ],
+            "responses": [
+                "Room 33212 is located in BLOCK 33 on the Second Floor.\n\nRoom 33212 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_4932b29251ecd835' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33213_lookup",
+            "patterns": [
+                "where is room 33213",
+                "find room 33213",
+                "location of room 33213"
+            ],
+            "responses": [
+                "Room 33213 is located in BLOCK 33 on the Second Floor.\n\nRoom 33213 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_d48cc01169676812' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33222_lookup",
+            "patterns": [
+                "where is room 33222",
+                "find room 33222",
+                "location of room 33222"
+            ],
+            "responses": [
+                "Room 33222 is located in BLOCK 33 on the Second Floor.\n\nRoom 33222 is a Rest Room - Ladies.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_d48cc01169676812' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33224_lookup",
+            "patterns": [
+                "where is room 33224",
+                "find room 33224",
+                "location of room 33224"
+            ],
+            "responses": [
+                "Room 33224 is located in BLOCK 33 on the Second Floor.\n\nRoom 33224 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_15f14a51d3f94f53' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33225_lookup",
+            "patterns": [
+                "where is room 33225",
+                "find room 33225",
+                "location of room 33225"
+            ],
+            "responses": [
+                "Room 33225 is located in BLOCK 33 on the Second Floor.\n\nRoom 33225 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_aa7f6e7ca4bc4f21' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33226_lookup",
+            "patterns": [
+                "where is room 33226",
+                "find room 33226",
+                "location of room 33226"
+            ],
+            "responses": [
+                "Room 33226 is located in BLOCK 33 on the Second Floor.\n\nRoom 33226 is a PG Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_35764da217f3eaca' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33227_lookup",
+            "patterns": [
+                "where is room 33227",
+                "find room 33227",
+                "location of room 33227"
+            ],
+            "responses": [
+                "Room 33227 is located in BLOCK 33 on the Second Floor.\n\nRoom 33227 is a PG Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_6287fd25dc83d61b' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33228_lookup",
+            "patterns": [
+                "where is room 33228",
+                "find room 33228",
+                "location of room 33228"
+            ],
+            "responses": [
+                "Room 33228 is located in BLOCK 33 on the Second Floor.\n\nRoom 33228 is a PG Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_5ba2fbd33403d7a4' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33229_lookup",
+            "patterns": [
+                "where is room 33229",
+                "find room 33229",
+                "location of room 33229"
+            ],
+            "responses": [
+                "Room 33229 is located in BLOCK 33 on the Second Floor.\n\nRoom 33229 is a PG Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_a3df8f43e1c883da' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33231_lookup",
+            "patterns": [
+                "where is room 33231",
+                "find room 33231",
+                "location of room 33231"
+            ],
+            "responses": [
+                "Room 33231 is located in BLOCK 33 on the Second Floor.\n\nRoom 33231 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_3351962fa4fa5050' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33232_lookup",
+            "patterns": [
+                "where is room 33232",
+                "find room 33232",
+                "location of room 33232"
+            ],
+            "responses": [
+                "Room 33232 is located in BLOCK 33 on the Second Floor.\n\nRoom 33232 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_70f6ac059b795a61' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33233_lookup",
+            "patterns": [
+                "where is room 33233",
+                "find room 33233",
+                "location of room 33233"
+            ],
+            "responses": [
+                "Room 33233 is located in BLOCK 33 on the Second Floor.\n\nRoom 33233 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_d2b12855e1fb895c' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33234_lookup",
+            "patterns": [
+                "where is room 33234",
+                "find room 33234",
+                "location of room 33234"
+            ],
+            "responses": [
+                "Room 33234 is located in BLOCK 33 on the Second Floor.\n\nRoom 33234 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_3f52f1be8c0eba3e' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33235_lookup",
+            "patterns": [
+                "where is room 33235",
+                "find room 33235",
+                "location of room 33235"
+            ],
+            "responses": [
+                "Room 33235 is located in BLOCK 33 on the Second Floor.\n\nRoom 33235 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_d9c8f186a137b3bd' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33236_lookup",
+            "patterns": [
+                "where is room 33236",
+                "find room 33236",
+                "location of room 33236"
+            ],
+            "responses": [
+                "Room 33236 is located in BLOCK 33 on the Second Floor.\n\nRoom 33236 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_24a0e2fe41de35ad' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33237_lookup",
+            "patterns": [
+                "where is room 33237",
+                "find room 33237",
+                "location of room 33237"
+            ],
+            "responses": [
+                "Room 33237 is located in BLOCK 33 on the Second Floor.\n\nRoom 33237 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_e33b9dca31040351' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33238_lookup",
+            "patterns": [
+                "where is room 33238",
+                "find room 33238",
+                "location of room 33238"
+            ],
+            "responses": [
+                "Room 33238 is located in BLOCK 33 on the Second Floor.\n\nRoom 33238 is a Digital Electronic Lab.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_10918db08f1cb3f7' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33239_lookup",
+            "patterns": [
+                "where is room 33239",
+                "find room 33239",
+                "location of room 33239"
+            ],
+            "responses": [
+                "Room 33239 is located in BLOCK 33 on the Second Floor.\n\nRoom 33239 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_e29319aec80f0268' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33240_lookup",
+            "patterns": [
+                "where is room 33240",
+                "find room 33240",
+                "location of room 33240"
+            ],
+            "responses": [
+                "Room 33240 is located in BLOCK 33 on the Second Floor.\n\nRoom 33240 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_de80f83057a15fdb' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33241_lookup",
+            "patterns": [
+                "where is room 33241",
+                "find room 33241",
+                "location of room 33241"
+            ],
+            "responses": [
+                "Room 33241 is located in BLOCK 33 on the Second Floor.\n\nRoom 33241 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_72544ba3e9d3fb2a' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33242_lookup",
+            "patterns": [
+                "where is room 33242",
+                "find room 33242",
+                "location of room 33242"
+            ],
+            "responses": [
+                "Room 33242 is located in BLOCK 33 on the Second Floor.\n\nRoom 33242 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_65ed7fc76dc04e51&location=s_fd7ffb392ed122ee' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33301_lookup",
+            "patterns": [
+                "where is room 33301",
+                "find room 33301",
+                "location of room 33301"
+            ],
+            "responses": [
+                "Room 33301 is located in BLOCK 33 on the Third Floor.\n\nRoom 33301 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_97fdac30574092c7' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33302_lookup",
+            "patterns": [
+                "where is room 33302",
+                "find room 33302",
+                "location of room 33302"
+            ],
+            "responses": [
+                "Room 33302 is located in BLOCK 33 on the Third Floor.\n\nRoom 33302 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_2935f270faa3a1f6' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33303_lookup",
+            "patterns": [
+                "where is room 33303",
+                "find room 33303",
+                "location of room 33303"
+            ],
+            "responses": [
+                "Room 33303 is located in BLOCK 33 on the Third Floor.\n\nRoom 33303 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_d110cd3462b31534' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33304_lookup",
+            "patterns": [
+                "where is room 33304",
+                "find room 33304",
+                "location of room 33304"
+            ],
+            "responses": [
+                "Room 33304 is located in BLOCK 33 on the Third Floor.\n\nRoom 33304 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_d787ff307f7164eb' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33305_lookup",
+            "patterns": [
+                "where is room 33305",
+                "find room 33305",
+                "location of room 33305"
+            ],
+            "responses": [
+                "Room 33305 is located in BLOCK 33 on the Third Floor.\n\nRoom 33305 is a Rest Room - Gents.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_1ba593cbcee75ccf' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33306_lookup",
+            "patterns": [
+                "where is room 33306",
+                "find room 33306",
+                "location of room 33306"
+            ],
+            "responses": [
+                "Room 33306 is located in BLOCK 33 on the Third Floor.\n\nRoom 33306 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_86925e10797dae23' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33307_lookup",
+            "patterns": [
+                "where is room 33307",
+                "find room 33307",
+                "location of room 33307"
+            ],
+            "responses": [
+                "Room 33307 is located in BLOCK 33 on the Third Floor.\n\nRoom 33307 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_38e04ceafd95afb6' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33308_lookup",
+            "patterns": [
+                "where is room 33308",
+                "find room 33308",
+                "location of room 33308"
+            ],
+            "responses": [
+                "Room 33308 is located in BLOCK 33 on the Third Floor.\n\nRoom 33308 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_e60aca43fe1c2749' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33309_lookup",
+            "patterns": [
+                "where is room 33309",
+                "find room 33309",
+                "location of room 33309"
+            ],
+            "responses": [
+                "Room 33309 is located in BLOCK 33 on the Third Floor.\n\nRoom 33309 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_3e0c2d1700134a5a' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33310_lookup",
+            "patterns": [
+                "where is room 33310",
+                "find room 33310",
+                "location of room 33310"
+            ],
+            "responses": [
+                "Room 33310 is located in BLOCK 33 on the Third Floor.\n\nRoom 33310 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_7e2343a0a60e80d5' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33311_lookup",
+            "patterns": [
+                "where is room 33311",
+                "find room 33311",
+                "location of room 33311"
+            ],
+            "responses": [
+                "Room 33311 is located in BLOCK 33 on the Third Floor.\n\nRoom 33311 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_4f63448ce2fc0631' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33314_lookup",
+            "patterns": [
+                "where is room 33314",
+                "find room 33314",
+                "location of room 33314"
+            ],
+            "responses": [
+                "Room 33314 is located in BLOCK 33 on the Third Floor.\n\nRoom 33314 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_da75213fff475751' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33315_lookup",
+            "patterns": [
+                "where is room 33315",
+                "find room 33315",
+                "location of room 33315"
+            ],
+            "responses": [
+                "Room 33315 is located in BLOCK 33 on the Third Floor.\n\nRoom 33315 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_a802f968fefb6bdd' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33326_lookup",
+            "patterns": [
+                "where is room 33326",
+                "find room 33326",
+                "location of room 33326"
+            ],
+            "responses": [
+                "Room 33326 is located in BLOCK 33 on the Third Floor.\n\nRoom 33326 is a Rest Room - Ladies.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_cdfeb7ff06aff51e' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33328_lookup",
+            "patterns": [
+                "where is room 33328",
+                "find room 33328",
+                "location of room 33328"
+            ],
+            "responses": [
+                "Room 33328 is located in BLOCK 33 on the Third Floor.\n\nRoom 33328 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_5ff790467d4f68f9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33329_lookup",
+            "patterns": [
+                "where is room 33329",
+                "find room 33329",
+                "location of room 33329"
+            ],
+            "responses": [
+                "Room 33329 is located in BLOCK 33 on the Third Floor.\n\nRoom 33329 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_ac69b14954f4a12b' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33330_lookup",
+            "patterns": [
+                "where is room 33330",
+                "find room 33330",
+                "location of room 33330"
+            ],
+            "responses": [
+                "Room 33330 is located in BLOCK 33 on the Third Floor.\n\nRoom 33330 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_859a72b0bcc895ae' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33331_lookup",
+            "patterns": [
+                "where is room 33331",
+                "find room 33331",
+                "location of room 33331"
+            ],
+            "responses": [
+                "Room 33331 is located in BLOCK 33 on the Third Floor.\n\nRoom 33331 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_9efe0dc0adc07a1c' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33332_lookup",
+            "patterns": [
+                "where is room 33332",
+                "find room 33332",
+                "location of room 33332"
+            ],
+            "responses": [
+                "Room 33332 is located in BLOCK 33 on the Third Floor.\n\nRoom 33332 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_a129ed93ef89c028' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33333_lookup",
+            "patterns": [
+                "where is room 33333",
+                "find room 33333",
+                "location of room 33333"
+            ],
+            "responses": [
+                "Room 33333 is located in BLOCK 33 on the Third Floor.\n\nRoom 33333 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_544d050dcd67db44' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33334_lookup",
+            "patterns": [
+                "where is room 33334",
+                "find room 33334",
+                "location of room 33334"
+            ],
+            "responses": [
+                "Room 33334 is located in BLOCK 33 on the Third Floor.\n\nRoom 33334 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_2463b035a1816f82' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33335_lookup",
+            "patterns": [
+                "where is room 33335",
+                "find room 33335",
+                "location of room 33335"
+            ],
+            "responses": [
+                "Room 33335 is located in BLOCK 33 on the Third Floor.\n\nRoom 33335 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_b3d0c6526fd597e8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33336_lookup",
+            "patterns": [
+                "where is room 33336",
+                "find room 33336",
+                "location of room 33336"
+            ],
+            "responses": [
+                "Room 33336 is located in BLOCK 33 on the Third Floor.\n\nRoom 33336 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_29d9e0b8412f0125' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33337_lookup",
+            "patterns": [
+                "where is room 33337",
+                "find room 33337",
+                "location of room 33337"
+            ],
+            "responses": [
+                "Room 33337 is located in BLOCK 33 on the Third Floor.\n\nRoom 33337 is a Computing Laboratory.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_e30f7712ad107903' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33338_lookup",
+            "patterns": [
+                "where is room 33338",
+                "find room 33338",
+                "location of room 33338"
+            ],
+            "responses": [
+                "Room 33338 is located in BLOCK 33 on the Third Floor.\n\nRoom 33338 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_42e9e5bdd5ed7897' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33339_lookup",
+            "patterns": [
+                "where is room 33339",
+                "find room 33339",
+                "location of room 33339"
+            ],
+            "responses": [
+                "Room 33339 is located in BLOCK 33 on the Third Floor.\n\nRoom 33339 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_35547e044ab4dbad' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33340_lookup",
+            "patterns": [
+                "where is room 33340",
+                "find room 33340",
+                "location of room 33340"
+            ],
+            "responses": [
+                "Room 33340 is located in BLOCK 33 on the Third Floor.\n\nRoom 33340 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_60c6e450f1cb12f9' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33341_lookup",
+            "patterns": [
+                "where is room 33341",
+                "find room 33341",
+                "location of room 33341"
+            ],
+            "responses": [
+                "Room 33341 is located in BLOCK 33 on the Third Floor.\n\nRoom 33341 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_5161e8e716873fc0' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33342_lookup",
+            "patterns": [
+                "where is room 33342",
+                "find room 33342",
+                "location of room 33342"
+            ],
+            "responses": [
+                "Room 33342 is located in BLOCK 33 on the Third Floor.\n\nRoom 33342 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_5770d9f897e26aae' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33343_lookup",
+            "patterns": [
+                "where is room 33343",
+                "find room 33343",
+                "location of room 33343"
+            ],
+            "responses": [
+                "Room 33343 is located in BLOCK 33 on the Third Floor.\n\nRoom 33343 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_9788cf14e4cc5ac8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33344_lookup",
+            "patterns": [
+                "where is room 33344",
+                "find room 33344",
+                "location of room 33344"
+            ],
+            "responses": [
+                "Room 33344 is located in BLOCK 33 on the Third Floor.\n\nRoom 33344 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_83a2230fb84e8f36' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33345_lookup",
+            "patterns": [
+                "where is room 33345",
+                "find room 33345",
+                "location of room 33345"
+            ],
+            "responses": [
+                "Room 33345 is located in BLOCK 33 on the Third Floor.\n\nRoom 33345 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_9be9f756d0f6e645' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33346_lookup",
+            "patterns": [
+                "where is room 33346",
+                "find room 33346",
+                "location of room 33346"
+            ],
+            "responses": [
+                "Room 33346 is located in BLOCK 33 on the Third Floor.\n\nRoom 33346 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_76bed185c08dd835' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33347_lookup",
+            "patterns": [
+                "where is room 33347",
+                "find room 33347",
+                "location of room 33347"
+            ],
+            "responses": [
+                "Room 33347 is located in BLOCK 33 on the Third Floor.\n\nRoom 33347 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_2a5648c48c7ded93' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33348_lookup",
+            "patterns": [
+                "where is room 33348",
+                "find room 33348",
+                "location of room 33348"
+            ],
+            "responses": [
+                "Room 33348 is located in BLOCK 33 on the Third Floor.\n\nRoom 33348 is a Faculty Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_8a430ce15eb471c7' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33349_lookup",
+            "patterns": [
+                "where is room 33349",
+                "find room 33349",
+                "location of room 33349"
+            ],
+            "responses": [
+                "Room 33349 is located in BLOCK 33 on the Third Floor.\n\nRoom 33349 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_81a66a6cd03891ba' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "room_33350_lookup",
+            "patterns": [
+                "where is room 33350",
+                "find room 33350",
+                "location of room 33350"
+            ],
+            "responses": [
+                "Room 33350 is located in BLOCK 33 on the Third Floor.\n\nRoom 33350 is a Class Room.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_1029889300cd529d&location=s_594b24d7f1241018' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "project_workspace_2_lookup",
+            "patterns": [
+                "where is Project Workspace 2",
+                "find Project Workspace 2",
+                "location of Project Workspace 2"
+            ],
+            "responses": [
+                "Project Workspace II is located in Room 33026 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_6391db0c39126915' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dean_meeting_hall_lookup",
+            "patterns": [
+                "where is Dean Meeting Hall",
+                "find Dean Meeting Hall",
+                "location of Dean Meeting Hall"
+            ],
+            "responses": [
+                "The Dean Meeting Hall is located in Room 33023 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_dce3deb0d6673890' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "learning_space_1_lookup",
+            "patterns": [
+                "where is Learning Space 1",
+                "find Learning Space 1",
+                "location of Learning Space 1"
+            ],
+            "responses": [
+                "Learning Space I is located in Room 33021 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_0cf1a9c3d280d6a8' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "learning_space_2_lookup",
+            "patterns": [
+                "where is learning space 2",
+                "find learning space 2",
+                "location of learning space 2"
+            ],
+            "responses": [
+                "Learning Space II is located in Room 33022 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link: <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_08e114686518bca5' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dean_office_lookup",
+            "patterns": [
+                "where is dean office",
+                "find dean office",
+                "location of dean office"
+            ],
+            "responses": [
+                "The Dean Office is located in Room 33027 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link:  <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_82e5e54bbaca2894' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "department_examcell_lookup",
+            "patterns": [
+                "where is department examcell",
+                "find department examcell",
+                "exam cell",
+                "cse examcell",
+                "location of department examcell"
+            ],
+            "responses": [
+                "The department examcell is located in Room 33020 of BLOCK 33 on the Ground Floor.\n\nYou can view the  Indoor map of the Vel Tech campus by clicking on this link:  <a href='https://app.mappedin.com/map/661ff21d3d4f85efee0e47aa?floor=m_84e51c67db8dd1a5&location=s_c5d18c7dd161a30f' target='_blank'> click here </a>."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

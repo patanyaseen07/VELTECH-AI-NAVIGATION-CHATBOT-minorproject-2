@@ -3,6 +3,10 @@
 
 import nltk
 from nltk.stem import WordNetLemmatizer
+
+# Download necessary NLTK data
+nltk.download('punkt')
+nltk.download('wordnet')
 import json
 import pickle
 import numpy as np
@@ -64,12 +68,14 @@ for doc in documents:
     output_row[classes.index(doc[1])] = 1
 
     training.append([bag, output_row])
-    
-# Shuffle and convert to numpy array
+
+# Shuffle training data
 random.shuffle(training)
-training = np.array(training)
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+
+# Convert training data to NumPy arrays
+train_x = np.array([item[0] for item in training])
+train_y = np.array([item[1] for item in training])
+
 print("Training data created")  
 
 # Create model
@@ -86,7 +92,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 
 # Train and save model
 try:
-    hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+    hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
     model.save('model.h5')  # Removed hist argument
     print("Model trained and saved successfully.")
 except Exception as e:
